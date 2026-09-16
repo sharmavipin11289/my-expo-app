@@ -1,43 +1,132 @@
-# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+# ==========================================
+# React Native + Expo
+# ==========================================
 
-# dependencies
+# Dependencies
 node_modules/
+.pnp/
+.pnp.js
 
 # Expo
 .expo/
+.expo-shared/
 dist/
 web-build/
-expo-env.d.ts
-
-# Native
-.kotlin/
-*.orig.*
+# Expo / EAS
+.eas/
+.easignore
 *.jks
 *.p8
 *.p12
 *.key
 *.mobileprovision
 
+# ==========================================
+# Environment Variables
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# React Native
+# ==========================================
+
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
 # Metro
 .metro-health-check*
 
-# debug
-npm-debug.*
-yarn-debug.*
-yarn-error.*
+# ==========================================
+# Android
+# ==========================================
 
+android/.gradle/
+android/local.properties
+android/.idea/
+android/app/build/
+android/build/
+android/captures/
+android/.cxx/
+android/*.iml
+
+# Keystore / signing
+android/app/*.jks
+android/app/*.keystore
+
+# ==========================================
+# iOS
+# ==========================================
+
+ios/Pods/
+ios/build/
+ios/DerivedData/
+ios/*.xcworkspace/xcuserdata/
+ios/*.xcodeproj/xcuserdata/
+ios/*.xcodeproj/project.xcworkspace/xcuserdata/
+ios/*.xcuserstate
+
+# ==========================================
 # macOS
+# ==========================================
+
 .DS_Store
-*.pem
 
-# local env files
-.env*.local
+# ==========================================
+# IDE - VS Code
+# ==========================================
 
-# typescript
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# ==========================================
+# IDE - Cursor
+# ==========================================
+
+.cursor/
+!.cursor/rules/
+
+# ==========================================
+# JetBrains
+# ==========================================
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ==========================================
+# TypeScript
+# ==========================================
+
 *.tsbuildinfo
 
-example
+# ==========================================
+# Testing / Coverage
+# ==========================================
 
-# generated native folders
-/ios
-/android
+coverage/
+.nyc_output/
+
+# ==========================================
+# Temporary files
+# ==========================================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# ==========================================
+# OS files
+# ==========================================
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
