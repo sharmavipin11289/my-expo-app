@@ -21,6 +21,9 @@ function getLinkLabel(url: string): string {
     if (host === 'apps.apple.com') {
       return 'App Store';
     }
+    if (host === 'play.google.com') {
+      return 'Play Store';
+    }
     return host;
   } catch {
     return url;

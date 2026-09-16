@@ -48,6 +48,51 @@ export const PORTFOLIO_LINKS: PortfolioLink[] = [
     ),
   },
   {
+    id: 'oyraa-android',
+    title: 'Oyraa - Interpreters on Call',
+    description: 'Real-time native interpreters and translators, 24/7',
+    url: 'https://play.google.com/store/apps/details?id=com.app.oyraa&hl=en_IN',
+    image: icon(
+      'https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/87/b9/c0/87b9c0de-e3f9-0b3d-7589-ee912bb50929/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg',
+    ),
+  },
+  {
+    id: 'tjara',
+    title: 'Tjara',
+    description: 'Shopping app with daily deals, auctions, and savings',
+    url: 'https://play.google.com/store/apps/details?id=com.wdp.www.tjaraapp',
+    image: icon(
+      'https://play-lh.googleusercontent.com/bCI0wxJpP7mzWfyOgBQ-ofgCUtF_w1hxSu-MTIEpFC2Jpz5Hs-T4fo39BavdAR1wuLwEd9XL7cAUuFN1T5mtIA=s0-br30',
+    ),
+  },
+  {
+    id: 'malo-africa',
+    title: 'Malo Africa',
+    description: 'Zambia marketplace to buy, sell, and discover local businesses',
+    url: 'https://apps.apple.com/in/app/malo-africa/id6748435553',
+    image: icon(
+      'https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e7/94/a8/e794a838-34cf-a09e-537a-1b8903f28c6c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.jpeg/512x512bb.jpg',
+    ),
+  },
+  {
+    id: 'chilly-apple',
+    title: 'Chilly Apple',
+    description: 'Udaipur grocery app for fresh fruits and vegetables at your doorstep',
+    url: 'https://play.google.com/store/apps/details?id=com.phppoets.jainthela&hl=en_IN',
+    image: icon(
+      'https://play-lh.googleusercontent.com/-pvHEiUd7M07Oslw6O6zN9HUr638gLcO77mutgvksZiTwLa5-xZf5SyXGy5dAPrhZGWOITTZI710S3w6mOxTiQ=s0-br30',
+    ),
+  },
+  {
+    id: 'chilly-apple-ios',
+    title: 'Chilly Apple',
+    description: 'Udaipur grocery app for fresh fruits and vegetables at your doorstep',
+    url: 'https://apps.apple.com/in/app/chilly-apple/id6448755533',
+    image: icon(
+      'https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b1/c5/eb/b1c5eb87-a9bd-42dd-05e5-eea75c0953c0/AppIcon-0-0-1x_U007emarketing-0-6-0-0-85-220.png/512x512bb.jpg',
+    ),
+  },
+  {
     id: 'shipphubb',
     title: 'ShippHubb',
     description: 'Community logistics and marketplace for expatriates',
