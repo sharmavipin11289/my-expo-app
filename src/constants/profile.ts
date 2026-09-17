@@ -35,13 +35,13 @@ export interface Profile {
 
 export const PROFILE: Profile = {
   name: 'Vipin Sharma',
-  title: 'Senior iOS & Flutter Developer',
+  title: 'Senior AI Powered Mobile Application Developer',
   phone: '+91 79761 08895',
   phoneHref: 'tel:+917976108895',
   email: 'sharmavipin11289@gmail.com',
   location: 'Jaipur, Rajasthan, India',
   summary:
-    'Senior iOS & Flutter engineer with 9+ years building production mobile apps in Swift, SwiftUI, Flutter, and Dart. Experienced in mobile architecture, REST APIs, real-time communication, performance, App Store releases, and mentoring teams of 4–5 developers. Currently expanding into AI-powered mobile features including LLM APIs, RAG, and conversational agents.',
+    'Senior iOS & Flutter Engineer with 9+ years of professional experience building and delivering production-grade mobile applications using Swift, SwiftUI, Flutter, and Dart. Strong expertise in mobile architecture, REST API integration, real-time communication, application performance, debugging, App Store releases, and production support. Experienced in leading and mentoring teams of 4-5 mobile developers,conducting code reviews, contributing to architecture and estimation discussions, and working directly with international clients across China and Thailand on requirements, technical discussions, demonstrations, and production releases. Strong hands-on experience across native iOS and Flutter development, including modern Swift/SwiftUI architecture, BLoC/Cubit, reusable components, API integration, real-time communication, local data storage, and production issue resolution. Currently expanding into AI application engineering, with hands-on exploration of LLM API integration, Generative AI features, prompt engineering, RAG, AI agents, conversational AI, and AI-assisted software development, with a focus on bringing AI capabilities into mobile applications.',
   experience: [
     {
       id: 'konstant',
